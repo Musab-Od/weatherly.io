@@ -1,7 +1,7 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/app.js',
   devtool: 'eval-source-map',
   devServer: {
     watchFiles: ['./src/template.html'],
@@ -44,4 +44,4 @@ module.exports = {
       },
     ],
   },
-}
+};
