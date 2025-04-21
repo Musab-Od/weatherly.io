@@ -1,18 +1,14 @@
 :root {
-    font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', serif;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto';
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-p {
-    color: rebeccapurple;
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
