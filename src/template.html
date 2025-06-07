@@ -6,11 +6,241 @@
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/all.min.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weatherly</title>
   </head>
   <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="header">
+          <div class="search-container">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" id="citySearch">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <h1 class="title">Weatherly</h1>
+        </div>
+        <div class="weather">
+          <div class="degree">
+            <h1>28°</h1>
+            <h2>Rainy Day</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi eum reiciendis sed sint iure. Deleniti reiciendis nobis, itaque nam laborum ex provident, cum totam, sequi in porro explicabo nihil!</p>
+          </div>
+          <div class="widgets">
+            <div class="feels-like">
+              <div class="widg-title">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <h3>Feels Like</h3>
+              </div>
+              <div class="content">
+                <h2>30°</h2>
+              </div>
+            </div>
+            <div class="precipitation">
+              <div class="widg-title">
+                <i class="fa-solid fa-droplet"></i>
+                <h3>Precipitation</h3>
+              </div>
+              <div class="content">
+                <h2>2.4</h2>
+                <p class="last-24">in last 24h</p>
+                <p class="next-24">2" expected in the next 24h</p>
+              </div>
+            </div>
+            <div class="visibility">
+              <div class="widg-title">
+                <i class="fa-regular fa-eye"></i>
+                <h3>Visibility</h3>
+              </div>
+              <div class="content">
+                <h2>8 mi</h2>
+              </div>
+            </div>
+            <div class="humidity">
+              <div class="widg-title">
+                <i class="fa-solid fa-water"></i>
+                <h3>Humidity</h3>
+              </div>
+              <div class="content">
+                <h2>62%</h2>
+                <p>The dew point is <span class="dew">25°</span> right now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="forecast hourly">
+          <div class="title">
+            <i class="fa-regular fa-calendar"></i>
+            <h2>HOURLY FORECAST</h2>
+          </div>
+          <hr>
+          <div class="forecast-container">
+            <div class="forecast-item">
+              <p class="time">Now</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">15:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">16:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">17:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">18:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">19:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">20:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">21:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">22:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="time">23:00</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+          </div>
+        </div>
+        <div class="forecast daily">
+          <div class="title">
+            <i class="fa-regular fa-clock"></i>
+            <h2>10-DAY FORECAST</h2>
+          </div>
+          <hr>
+          <div class="forecast-container">
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+            <div class="forecast-item">
+              <p class="day-name">Monday</p>
+              <p class="date">12/05</p>
+              <h3 class="temperature">26°</h3>
+              <i class="fa-solid fa-cloud-rain"></i>
+            </div>
+          </div>
+        </div>
+        <div class="weather-metrics">
+          <div class="widget uv-index">
+            <div class="widget-title">
+              <i class="fa-solid fa-temperature-three-quarters"></i>
+              <h2>UV INDEX</h2>
+            </div>
+            <div class="widget-content">
+              <h3 class="value">3</h3>
+              <p class="level-description">Moderate</p>
+              <div class="uv-meter"><span class="indicator"></span></div>
+              <p class="uv-advice">Use sun protection until 16:00</p>
+            </div>
+          </div>
+          <div class="widget wind">
+            <div class="widget-title">
+              <i class="fa-solid fa-wind"></i>
+              <h2>WIND</h2>
+            </div>
+            <div class="widget-content">
+              <div class="wind-info">
+                <h3 class="value">3</h3>
+                <div class="wind-description">
+                  <p class="unit">MPH</p>
+                  <p class="label">Wind</p>
+                </div>
+              </div>
+              <hr>
+              <div class=" wind-info gust">
+                <h3 class="value">9</h3>
+                <div class="wind-description">
+                  <p class="unit">MPH</p>
+                  <p class="label">Gusts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
