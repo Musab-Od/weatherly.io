@@ -309,6 +309,10 @@ hr {
   scroll-snap-type: mandatory;
 }
 
+.forecast .forecast-container > div:first-child {
+  background-color: var(--search-container-background-color);
+}
+
 .forecast-container .forecast-item {
   flex: 0 0 calc(100% / 6 - 10px);
   scroll-snap-align: start;
@@ -516,6 +520,7 @@ hr {
     border-width: 15px;
     height: auto;
     min-height: 100vh;
+    min-width: 750px;
   }
 
   .left-side, .right-side {
